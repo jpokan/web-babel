@@ -1,0 +1,15 @@
+{
+  "name": "web-babel",
+  "version": "1.0.0",
+  "description": "Transpiling with babel example",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel js -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
